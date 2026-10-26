@@ -52,6 +52,9 @@ If only one protocol works, describe the partial result and user options; do not
 
 ## Stage the user client and protect the agent
 
+If the user requests a dedicated ISP exit, read [static-isp-exit.md](static-isp-exit.md) after the base relay works.
+It is optional and keeps the accepted route available; no purchase follows merely from reading the guide.
+
 Import a separate candidate without overwriting or selecting the original profile. Complete required permissions before the actual trial where safe.
 Capture the original profile/enabled state and system proxy/DNS settings with a concrete local restoration action.
 The provided Mihomo controller adapter supports existing group node selection only. Cross-app takeover needs a broader, reviewed adapter.

@@ -79,6 +79,20 @@ SSH 管理与代理流量分开：检查服务器实际分配的公网地址后�
 Tailscale 自身仍有传输流量；不要声称“除了443所有端口都关闭了”。
 服务器防火墙的回滚与本机 VPN 切换的回滚是两个独立机制。
 
+## 可选：独享静态 ISP 出口
+
+需要固定出口时，阅读 [Static ISP Exit 章节](skills/vps-relay/references/static-isp-exit.md)：
+客户端 → VPS → 独享 ISP 代理 → 网站。IPRoyal 是示例供应商，现有 VPS-only 路径继续保留。
+章节包括选择与购买、私有凭据、Mihomo 链路片段、隔离检查、恢复及 Claude 订阅要求。
+
+这是 `main` 上的文档扩展。需要 Agent 配置此选项时，在基础流程后补充这段提示：
+
+```text
+Read https://raw.githubusercontent.com/ShanedevPro/agent-vps-relay/main/skills/vps-relay/references/static-isp-exit.md
+and help me add an optional dedicated ISP exit. Preserve my working relay
+and current Internet connection. Ask before any purchase.
+```
+
 ## 隐私
 
 本仓库只有新写的代码和虚构示例，没有从真实会话导入配置、日志、截图、工单、订单或 Git 历史。

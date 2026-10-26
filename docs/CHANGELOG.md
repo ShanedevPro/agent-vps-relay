@@ -1,3 +1,8 @@
+# Guide updates on main
+
+- Added an optional bilingual Static ISP Exit chapter with an IPRoyal example, private credentials, Mihomo chaining and separate Claude eligibility guidance.
+- Linked it from onboarding, agent/skill entries and workflows. The v0.1.0 tag, helper code and release packages are unchanged.
+
 # v0.1.0
 
 首次发布：给 Agent 一句话，按实际环境配置自建 VPS relay。

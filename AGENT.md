@@ -8,6 +8,9 @@ This is the v0.1.0 guide. Use helper source from the same release: obtain the [t
 through the existing connection, review it and run the CLI from its project root. An existing Git installation can check out the tag instead.
 Reading the guide does not require installing Git, Node.js or an MCP server.
 
+Only when the user requests a dedicated ISP exit, read the [optional chapter](skills/vps-relay/references/static-isp-exit.md).
+This `main` documentation extension leaves v0.1.0 helper behavior unchanged; its ISP-chain checks are separate from the base CLI verification.
+
 1. Inspect before proposing changes. Distinguish your execution host, the user's actual client device and the VPS.
 2. Check missing requirements and install only what is necessary from verified official sources.
 3. Preserve the working connection. Isolated tests must not alter global proxy, TUN, DNS, routes or auto-connect.

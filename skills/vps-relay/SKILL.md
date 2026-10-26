@@ -6,6 +6,7 @@ license: MIT
 
 Read [references/workflow.md](references/workflow.md); use [中文版](references/workflow.zh-CN.md) when helpful.
 Load provider and client references only for the selected environment.
+When the user requests a dedicated static ISP exit, load [references/static-isp-exit.md](references/static-isp-exit.md).
 Use the helper CLI from the same reviewed project release; do not invent an owner, download URL or missing release tag.
 If helpers are unavailable, stage a plan and obtain the official release/source through an existing trusted connection.
 

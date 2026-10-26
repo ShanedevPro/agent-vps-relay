@@ -65,6 +65,20 @@ After verification, ordinary SSH can be restricted to Tailscale while TCP443/UDP
 IPv6 is optional. Public SSH checks cover the server's actual assigned address families, including provider NAT/floating addresses you declare.
 Client recovery and server firewall recovery are independent.
 
+## Optional static ISP exit
+
+Read the bilingual [Static ISP Exit chapter](skills/vps-relay/references/static-isp-exit.md) for a fixed exit:
+client → VPS → dedicated ISP proxy → website. IPRoyal is an example provider; retain the VPS-only route.
+It covers purchasing, private authentication, a Mihomo chain fragment, isolated checks, recovery and Claude subscription requirements.
+
+This is a documentation extension on `main`. After the base workflow, give the agent this additional prompt:
+
+```text
+Read https://raw.githubusercontent.com/ShanedevPro/agent-vps-relay/main/skills/vps-relay/references/static-isp-exit.md
+and help me add an optional dedicated ISP exit. Preserve my working relay
+and current Internet connection. Ask before any purchase.
+```
+
 ## Privacy and release
 
 Private credentials and checkpoints live outside the repository. Public reports use an allowlist and contain no endpoints or arbitrary logs.
