@@ -1,0 +1,19 @@
+{
+  "ssh": {
+    "host": "192.0.2.10",
+    "user": "relayadmin",
+    "port": 22,
+    "identity_file": "~/.ssh/relay_key",
+    "known_hosts_file": "~/.config/agent-vps-relay/known_hosts",
+    "fingerprint": "SHA256:REPLACE_WITH_INDEPENDENTLY_VERIFIED_FINGERPRINT",
+    "identity_verified": false
+  },
+  "server": {
+    "address": "192.0.2.10",
+    "reality_target": "www.bing.com:443",
+    "reality_sni": "www.bing.com",
+    "target_validated": false
+  },
+  "verification": {"expected_exits": ["192.0.2.10", "2001:db8::10"]},
+  "management": {"addresses": [], "public_addresses": [], "console_recovery_verified": false}
+}

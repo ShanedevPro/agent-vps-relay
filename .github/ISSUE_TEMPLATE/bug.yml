@@ -1,0 +1,18 @@
+name: Bug report
+description: Share a reviewed allowlisted report, never raw private state.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, keys, import URIs/QRs, endpoints, device/account names, screenshots, tickets or raw logs. Preview `report` output first.
+  - type: textarea
+    id: report
+    attributes:
+      label: Allowlisted report
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+      description: Describe behavior without identifying machines or accounts.

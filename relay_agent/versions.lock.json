@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-25",
+  "validation": "Pinned upstream release metadata; local check records are in docs/VALIDATION.md",
+  "artifacts": {
+    "xray": {
+      "linux-amd64": {
+        "repository": "XTLS/Xray-core",
+        "version": "v26.10.21",
+        "url": "https://github.com/XTLS/Xray-core/releases/download/v26.10.21/Xray-linux-64.zip",
+        "sha256": "0eec3ed4163c273d8c8bf821f7d219e257921cf584aa3fb970715e458e631978",
+        "format": "zip",
+        "member": "xray"
+      }
+    },
+    "hysteria2": {
+      "linux-amd64": {
+        "repository": "HyNetworks/hysteria",
+        "version": "app/v2.13.0",
+        "url": "https://github.com/HyNetworks/hysteria/releases/download/app/v2.13.0/hysteria-linux-amd64",
+        "sha256": "907ba8c9693edb104b20582681fb7dc15639d5b64a9cbb616a7b539190a86691",
+        "format": "raw"
+      }
+    },
+    "mihomo": {
+      "darwin-arm64": {
+        "repository": "MetaCubeX/mihomo",
+        "version": "v1.19.33",
+        "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-darwin-arm64-v1.19.33.gz",
+        "sha256": "060b64b0f2c9a310831db0fe4adb2878de67bfa606c311813c1f13966aa504b6",
+        "format": "gzip"
+      },
+      "darwin-amd64": {
+        "repository": "MetaCubeX/mihomo",
+        "version": "v1.19.33",
+        "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-darwin-amd64-compatible-v1.19.33.gz",
+        "sha256": "eefe967b74312f70b64efa0dfa54929d00c7af8e94416e1b12df09863a40f35b",
+        "format": "gzip"
+      },
+      "linux-amd64": {
+        "repository": "MetaCubeX/mihomo",
+        "version": "v1.19.33",
+        "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-linux-amd64-compatible-v1.19.33.gz",
+        "sha256": "386508bfb1c72c43b6a0eda73708ecdce82546581b0ebcb16366c53757c622b6",
+        "format": "gzip"
+      },
+      "windows-amd64": {
+        "repository": "MetaCubeX/mihomo",
+        "version": "v1.19.33",
+        "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-windows-amd64-compatible-v1.19.33.zip",
+        "sha256": "7aaf636a4f2172dcd8ec34ac4f52797b059195e5afd6409508c963e545f8864d",
+        "format": "zip",
+        "member": "mihomo-windows-amd64.exe"
+      }
+    }
+  }
+}

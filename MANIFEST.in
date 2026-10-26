@@ -1,0 +1,8 @@
+include AGENT.md AGENTS.md README.md README.en.md LICENSE validation.json
+recursive-include docs *.md
+recursive-include skills *.md
+recursive-include examples *.json
+recursive-include tools *.py
+recursive-include tests *.py
+recursive-include relay_agent *.json
+global-exclude *.pyc

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-vps-relay"
+version = "0.1.0"
+description = "Agent guide and optional helpers for private, resumable VPS relay setup"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+relay-agent = "relay_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["relay_agent*"]
+
+[tool.setuptools.package-data]
+relay_agent = ["versions.lock.json"]

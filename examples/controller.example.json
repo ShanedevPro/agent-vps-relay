@@ -1,0 +1,8 @@
+{
+  "controller": "http://127.0.0.1:19090",
+  "secret_file": "REPLACE_WITH_ABSOLUTE_PRIVATE_SECRET_FILE",
+  "group": "REPLACE_WITH_EXISTING_SELECTOR_GROUP",
+  "baseline_node": "REPLACE_WITH_CURRENT_WORKING_NODE",
+  "candidate_node": "REPLACE_WITH_IMPORTED_CANDIDATE",
+  "proxy": "http://127.0.0.1:17890"
+}

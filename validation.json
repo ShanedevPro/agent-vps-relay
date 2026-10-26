@@ -1,0 +1,20 @@
+{
+  "release_version": "0.1.0",
+  "release_ready": true,
+  "live_vps_pilot_performed": false,
+  "disposable_server_integration_performed": false,
+  "unit_test_count": 78,
+  "unit_tests_passed": true,
+  "native_scheduler_fixture": {
+    "Darwin": {"proof_executed": true, "launcher_terminated": true, "fixture_restored": true, "network_changed": false},
+    "Linux": {"validated": false},
+    "Windows": {"validated": false}
+  },
+  "core_config_validation": true,
+  "core_config_validation_details": {"core": "Mihomo", "version": "v1.19.33", "platform": "darwin-arm64", "protocols": ["reality", "hysteria2"], "live_traffic_tested": false},
+  "skill_validation_passed": true,
+  "documentation_links_passed": true,
+  "privacy_audit_passed": true,
+  "ci_executed": false,
+  "public_publication_approved": true
+}
